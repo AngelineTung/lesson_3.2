@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: terraform   # 👈 this is your working dir
+        working-directory: ./terraform   # 👈 this is your working dir
 
     steps:
       - name: Checkout
